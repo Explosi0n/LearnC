@@ -10,6 +10,7 @@ int main()
 	{
 		for(i=1;i<=n;i++)  //计算n的阶乘
 		{
+			num = 1;
 			num = num*i;
 		}
 		result=result+num; 
